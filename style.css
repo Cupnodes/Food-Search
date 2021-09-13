@@ -9,4 +9,67 @@
 body {
     font-family: 'Poppins', sans-serif;
     height: 100vh;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
+
+:root {
+    --potato-color: #d65108;
+    --potato-color-dark: #b54507;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+}
+
+.text {
+    opacity: .8;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+.meal-wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.meal-search {
+    margin: 2rem 0;
+}
+
+.meal-search cite {
+    font-size: 1rem;
+}
+
+.meal-search-box {
+    margin: 1.2rem 0;
+    display: flex;
+    align-items: stretch;
+}
+
+.search-control,
+.search-btn {
+    width: 100%;
+}
+
+.search-control {
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    border: 1px solid var(--potato-color);
+    color: var(--potato-color);
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
